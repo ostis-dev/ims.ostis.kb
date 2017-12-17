@@ -1,0 +1,41 @@
+section_subjdomain_of_logical_formulas_and_logical_ontologies
+=>nrel_exercise: 
+ section_subjdomain_of_logical_formulas_and_logical_ontologies_exercise_2;; 
+
+section_subjdomain_of_logical_formulas_and_logical_ontologies_exercise_2
+<- exercise;
+
+=> nrel_main_idtf:
+ [Упражнение 2. Раздел. Предметная область логических формул и логических онтологий]
+ (* <- lang_ru;; *);
+ [Exercise 2. Section. Subject domain of logical formulas and logical ontologies. ]
+ (* <- lang_en;; *);
+
+<- rrel_key_sc_element: ...
+ (*
+  <- explanation;;
+  <= nrel_sc_text_translation:
+  ...
+  (*
+  -> rrel_example:
+    "file://def_section_subjdomain_of_logical_formulas_and_logical_ontologies_exercise_2.html"
+   (* <- lang_ru;; *);;
+  *);;
+ *);;
+
+section_subjdomain_of_logical_formulas_and_logical_ontologies_exercise_2
+=> nrel_right_answer: ...
+(*
+<- rrel_key_sc_element: ...
+ (*
+  <- illustration;;
+  <= nrel_sc_text_translation:
+  ...
+  (*
+  -> rrel_example:
+    "file://2.png"  
+	(* <- lang_ru;; *);;
+  *);;
+ *);;
+
+*);;
