@@ -139,7 +139,7 @@ irrational_number
 => nrel_main_idtf:
 	[иррациональное число]
 	(* <- lang_ru;; *);
-	[rational number]
+	[irrational number]
 	(* <- lang_en;; *);
 => nrel_idtf:
 	[множество иррациональных чисел]
@@ -268,7 +268,7 @@ nrel_opposite_numbers
 => nrel_main_idtf:
 	[противоположные числа*]
 	(* <- lang_ru;; *);
-	[positive number*]
+	[opposite numbers*]
 	(* <- lang_en;; *);
 <- rrel_key_sc_element:
 	...
@@ -289,13 +289,13 @@ nrel_modulus
 => nrel_main_idtf:
 	[модуль*]
 	(* <- lang_ru;; *);
-	[positive number]
+	[absolute value*]
 	(* <- lang_en;; *);
 => nrel_idtf:
 	[модуль числа*]
 	(* <- lang_ru;; *);
 => nrel_idtf:
-	[absolute value*]
+	[absolute value of a number*]
 	(* <- lang_en;; *);
 <- rrel_key_sc_element:
 	...
