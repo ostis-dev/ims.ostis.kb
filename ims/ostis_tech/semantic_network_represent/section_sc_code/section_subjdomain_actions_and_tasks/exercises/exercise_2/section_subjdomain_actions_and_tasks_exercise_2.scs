@@ -18,7 +18,7 @@ section_subjdomain_actions_and_tasks_exercise_2
   ...
   (*
   -> rrel_example:
-    "file://def_section_subjdomain_actions_and_tasks_exercise_2.html"
+    "file://definition_exercise_2.html"
    (* <- lang_ru;; *);;
   *);;
  *);;
