@@ -4,4 +4,12 @@ library_subsystems_information_support_design_automation_ostis
 	[Библиотека подсистем информационной поддержки и автоматизации проектирования различных компонентов ostis-систем ]
 	(* <- lang_ru;; *);
 	[Library subsystems of the information support and design automation of various ostis-systems components]
-	(* <- lang_en;; *);;
+	(* <- lang_en;; *);
+<- section_subsystem_dev_kb_editing_initial_texts;
+<- section_subsystem_dev_kb_initial_text_one_administrator;
+<- section_subsystem_dev_kb_developer_administrator;
+<- section_subsystem_dev_kb_developer_hierarchy;
+<- section_subsystem_dev_kb_developer_automation_tools;
+<- section_subsystem_dev_base_program_language;
+<- section_subsystem_dev_kpm;
+<- section_subsystem_dev_interface;;
