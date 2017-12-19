@@ -18,7 +18,7 @@ section_subjdomain_ligaments_relations_exercise_1
   ...
   (*
   -> rrel_example:
-    "file://def_section_subjdomain_ligaments_relations_exercise_1.html"
+    "file://subjdomain_ligaments_relations_exercise_1.html"
    (* <- lang_ru;; *);;
   *);;
  *);;
