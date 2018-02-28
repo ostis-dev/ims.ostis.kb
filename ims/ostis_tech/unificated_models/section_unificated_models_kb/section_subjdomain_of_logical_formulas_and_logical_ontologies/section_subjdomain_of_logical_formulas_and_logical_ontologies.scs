@@ -5,6 +5,18 @@ section_subjdomain_of_logical_formulas_and_logical_ontologies
 <- not_enough_formed_structure;
 <- atomic_section;;
 
+section_subjdomain_of_logical_formulas_and_logical_ontologies
+=>nrel_exercise: 
+exercise_1_section_subjdomain_of_logical_formulas_and_logical_ontologies;; 
+
+section_subjdomain_of_logical_formulas_and_logical_ontologies
+=>nrel_exercise: 
+ exercise_2_section_subjdomain_of_logical_formulas_and_logical_ontologies;; 
+
+section_subjdomain_of_logical_formulas_and_logical_ontologies
+=>nrel_exercise: 
+ exercise_3_section_subjdomain_of_logical_formulas_and_logical_ontologies;; 
+
 section_subjdomain_of_logical_formulas_and_logical_ontologies = [*^"file://subjdomain_of_logical_formulas_and_logical_ontologies.scsi"*];;
 
 section_subjdomain_of_logical_formulas_and_logical_ontologies

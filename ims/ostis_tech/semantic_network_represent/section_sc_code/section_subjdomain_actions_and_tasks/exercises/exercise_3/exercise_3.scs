@@ -1,8 +1,4 @@
-section_subjdomain_actions_and_tasks
-=>nrel_exercise: 
- section_subjdomain_actions_and_tasks_exercise_3;; 
-
-section_subjdomain_actions_and_tasks_exercise_3
+exercise_3_section_subjdomain_actions_and_tasks
 <- exercise;
 
 => nrel_main_idtf:
@@ -22,3 +18,20 @@ section_subjdomain_actions_and_tasks_exercise_3
    (* <- lang_ru;; *);;
   *);;
  *);;
+
+exercise_3_section_subjdomain_actions_and_tasks
+=> nrel_right_answer: ...
+(*
+<- rrel_key_sc_element: ...
+ (*
+  <- illustration;;
+  <= nrel_sc_text_translation:
+  ...
+  (*
+  -> rrel_example:
+    "file://3.png"  
+	(* <- lang_ru;; *);;
+  *);;
+ *);;
+
+*);;

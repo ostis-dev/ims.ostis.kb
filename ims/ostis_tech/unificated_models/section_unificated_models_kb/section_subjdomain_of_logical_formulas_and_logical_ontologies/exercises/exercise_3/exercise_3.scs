@@ -1,8 +1,4 @@
-section_subjdomain_of_logical_formulas_and_logical_ontologies
-=>nrel_exercise: 
- section_subjdomain_of_logical_formulas_and_logical_ontologies_exercise_3;; 
-
-section_subjdomain_of_logical_formulas_and_logical_ontologies_exercise_3
+exercise_3_section_subjdomain_of_logical_formulas_and_logical_ontologies
 <- exercise;
 
 => nrel_main_idtf:
@@ -23,3 +19,19 @@ section_subjdomain_of_logical_formulas_and_logical_ontologies_exercise_3
   *);;
  *);;
 
+exercise_3_section_subjdomain_of_logical_formulas_and_logical_ontologies
+=> nrel_right_answer: ...
+(*
+<- rrel_key_sc_element: ...
+ (*
+  <- illustration;;
+  <= nrel_sc_text_translation:
+  ...
+  (*
+  -> rrel_example:
+    "file://3.png"  
+	(* <- lang_ru;; *);;
+  *);;
+ *);;
+
+*);;

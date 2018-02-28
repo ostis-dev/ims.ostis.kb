@@ -9,3 +9,4 @@ section_composition_of_OSTIS_technology
 
 	section_composition_of_OSTIS_technology = [*^"file://section_type_function_and_composition_of_technology_OSTIS.scsi"*];;
 
+rrel_key_sc_element -> (section_composition_of_OSTIS_technology -> technology_OSTIS);;
