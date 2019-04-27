@@ -690,7 +690,7 @@ actions_class
 
 <= nrel_subdividing:
 {
-	independent_actions_class;
+	atomic_actions_class;
 	non_independent_actions_class
 };	
 
@@ -707,7 +707,7 @@ actions_class
 		*);;
 	*);;	
 	
-independent_actions_class
+atomic_actions_class
 <- sc_node_not_relation;
 => nrel_main_idtf:
 	[класс автономных действий]
@@ -722,7 +722,7 @@ independent_actions_class
 		...
 		(*
 			-> rrel_example:
-				"file://content_html/expl_independent_actions_class.html"
+				"file://content_html/expl_atomic_actions_class.html"
 			(* <- lang_ru;;	*);;
 		*);;
 	*);;
