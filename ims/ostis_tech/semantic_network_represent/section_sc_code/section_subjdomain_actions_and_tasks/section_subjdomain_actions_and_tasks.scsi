@@ -35,7 +35,7 @@ subject_domain_of_actions_and_tasks
 	external_subject_ostis_system_interaction;
 	external_subject_ostis_system_without_interaction;
 	actions_class;
-	independent_actions_class;
+	atomic_actions_class;
 	non_independent_actions_class;
 	task;
 	procedural_formulation_of_task;
