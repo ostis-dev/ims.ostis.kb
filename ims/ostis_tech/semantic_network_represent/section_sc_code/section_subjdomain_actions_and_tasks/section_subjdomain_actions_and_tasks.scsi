@@ -710,7 +710,7 @@ actions_class
 atomic_actions_class
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[класс автономных действий]
+	[класс атомарных действий]
 	(* <- lang_ru;; *);
 	[independent actions class]
 	(* <- lang_en;; *);
