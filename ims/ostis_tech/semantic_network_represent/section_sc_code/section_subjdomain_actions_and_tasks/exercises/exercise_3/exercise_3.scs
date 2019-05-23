@@ -1,0 +1,37 @@
+exercise_3_section_subjdomain_actions_and_tasks
+<- exercise;
+
+=> nrel_main_idtf:
+ [Упражнение 3. Раздел. Предметная область  действий и задач]
+ (* <- lang_ru;; *);
+ [Exercise 3. Section. Subject domain of actions and tasks]
+ (* <- lang_en;; *);
+
+<- rrel_key_sc_element: ...
+ (*
+  <- explanation;;
+  <= nrel_sc_text_translation:
+  ...
+  (*
+  -> rrel_example:
+    "file://definition_exercise_3.html"
+   (* <- lang_ru;; *);;
+  *);;
+ *);;
+
+exercise_3_section_subjdomain_actions_and_tasks
+=> nrel_right_answer: ...
+(*
+<- rrel_key_sc_element: ...
+ (*
+  <- illustration;;
+  <= nrel_sc_text_translation:
+  ...
+  (*
+  -> rrel_example:
+    "file://3.png"  
+	(* <- lang_ru;; *);;
+  *);;
+ *);;
+
+*);;
