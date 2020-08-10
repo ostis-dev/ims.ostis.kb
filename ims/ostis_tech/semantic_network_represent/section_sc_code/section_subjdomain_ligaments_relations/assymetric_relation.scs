@@ -1,0 +1,30 @@
+asymmetric_relation
+=> nrel_main_idtf:
+	[асимметричное отношение] (* <- lang_ru;; *);
+	[asymmetric relation]     (* <- lang_en;; *);
+<- rrel_key_sc_element: ...
+(*
+    <- sc_definition;;
+   	=> nrel_main_idtf:
+		[Def.(Asymmetric relation)]       (* <-lang_en;; *);
+		[Опр.(Асимметричное отношение)]   (* <-lang_ru;; *);;
+	<= nrel_sc_text_translation:
+	    ... 
+        (* 
+        -> rrel_example: 
+            [Asymmetric relation is a binary relation on a set X where: for all a and b in X, if a is related to b, then b is not related to a] 
+            (* <-lang_en;; *);;
+        *);
+	    ... 
+        (*
+        -> rrel_example: 
+            [Асимметричное отношение — бинарное отношение R на некотором множестве X, обладающее для любых a,b из X следующим свойством: если a связано данным отношением с b, то b не связано с a.] 
+            (* <-lang_ru;; *);; 
+        *);;
+	<= nrel_using_constants:
+		{
+			binary_relation;
+			set
+		};;
+*);
+<-sc_node_not_relation;;
