@@ -30,5 +30,8 @@ asymmetric_relation
 		};;
 *);
 <-sc_node_not_relation;
-<-antireflexive_relation;
-<-antisymmetric_relation;;
+<=nrel_intersection: 
+    {
+    antireflexive_relation;
+    antisymmetric_relation    
+    };;
