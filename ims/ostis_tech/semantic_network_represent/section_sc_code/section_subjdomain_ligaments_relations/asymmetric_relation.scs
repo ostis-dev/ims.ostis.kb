@@ -12,19 +12,23 @@ asymmetric_relation
 	    ... 
         (* 
         -> rrel_example: 
-            [Asymmetric relation is a binary relation on a set X where: for all a and b in X, if a is related to b, then b is not related to a] 
+            [Asymmetric relation is a binary relation that is antisymmetric and anti reflexive] 
             (* <-lang_en;; *);;
         *);
 	    ... 
         (*
         -> rrel_example: 
-            [Асимметричное отношение — бинарное отношение R на некотором множестве X, обладающее для любых a,b из X следующим свойством: если a связано данным отношением с b, то b не связано с a.] 
+            [Асимметричное отношение - бинарное отношение, которое антисимметрично и при этом антирефлексивно. ] 
             (* <-lang_ru;; *);; 
         *);;
 	<= nrel_using_constants:
 		{
 			binary_relation;
-			set
+			set;
+            antireflexive_relation;
+            antisymmetric_relation
 		};;
 *);
-<-sc_node_not_relation;;
+<-sc_node_not_relation;
+<-antireflexive_relation;
+<-antisymmetric_relation;;
