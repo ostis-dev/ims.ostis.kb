@@ -3,16 +3,12 @@ import os
 
 
 def main(work_directory):
-    if os.name == 'nt':
-        os.system('reg delete "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v LongPathsEnabled /f')
-        os.system('reg add "HKLM\SYSTEM\CurrentControlSet\Control\FileSystem" /v LongPathsEnabled /t REG_DWORD /d 1')
-
     list_of_files = list()
     for (dir_path, dir_names, file_names) in os.walk(work_directory):
         list_of_files += [os.path.join(dir_path, file) for file in file_names]
     for file in list_of_files:
         if file.endswith(".scs"):
-            is_edit = False
+            is_file_processed = False
             buffer_file_list = []
             with open(file, 'r', encoding='utf-8') as scs_file:
                 dir_path = os.path.split(file)[0]
@@ -42,10 +38,10 @@ def main(work_directory):
                         buffer_file_list.append("\n")
                         buffer_file_list.append("*];;")
                         os.remove(os.path.join(dir_path, scsi_path))
-                        is_edit = True
+                        is_file_processed = True
                     else:
                         buffer_file_list.append(scs_file_line)
-            if is_edit:
+            if is_file_processed:
                 with open(file, "w", encoding="utf_8") as scs_file:
                     for scs_file_line in buffer_file_list:
                         scs_file.write(scs_file_line)
@@ -55,4 +51,4 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
         main(sys.argv[1])
     else:
-        print("invalid numb of arguments, Please specify only the work directory")
+        print("invalid number of arguments, Please specify only the work directory")
