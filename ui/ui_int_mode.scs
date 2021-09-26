@@ -1,0 +1,17 @@
+ui_int_mode
+<- sc_node_not_relation;
+=> nrel_main_idtf: 
+    [Интеллектуальный режим] 
+    (* <- lang_ru;; *);
+=> nrel_main_idtf: 
+    [Intelligent mode] 
+    (* <- lang_en;; *);;
+    
+ui_int_mode_nothing_found
+<- sc_node_not_relation;
+=> nrel_main_idtf: 
+    [SC-элемента с таким идентификатором не существует] 
+    (* <- lang_ru;; *);
+=> nrel_main_idtf: 
+    [SC-element whith such identifier doesn't exist] 
+    (* <- lang_en;; *);;
